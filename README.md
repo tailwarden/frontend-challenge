@@ -26,7 +26,7 @@ Developers can do the following:
 
 ### API documentation
 
-To fetch the list of cloud account, you’ll need to make request to a publicly-available API to get JSON content:
+To fetch the list of cloud accounts, you’ll need to make request to a publicly-available API to get JSON content:
 
 ```json
 GET https://hiring.oraculi.io/v1/accounts
@@ -60,7 +60,7 @@ The JSON response contains the following attributes:
 }
 ```
 
-To get account costs by service for the last 6 months, use the following endpoint:
+To get a cloud account costs grouped by service for the last 6 months, use the following endpoint:
 
 ```json
 GET https://hiring.oraculi.io/v1/accounts/{id}/history
