@@ -22,7 +22,7 @@ Developers can do the following:
 - Track cloud account stats (costs & usage)
 - Filter data by cloud account.
 
->  Bonus: Surprise us! Add a feature that you think would work well here ! Also, feel free your own look & feel.
+>  Bonus: Surprise us! Add a feature that you think would work well here ! Also, feel free to add your own look & feel.
 
 ### API documentation
 
