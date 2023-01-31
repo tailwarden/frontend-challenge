@@ -1,10 +1,10 @@
 ## Frontend Engineer - Coding challenge
 
-This test is a part of our hiring process at Oraculi for the Frontend Engineer position. It should take you between 1 and 3 hours depending on your experience.
+This test is a part of our hiring process at Tailwarden for the Frontend Engineer position. It should take you between 1 and 3 hours depending on your experience.
 
-**Feel free to apply! Drop us a line with your LinkedIn/GitHub/Twitter and link of your code repository at [mohamed@oraculi.io](mailto:mohamed@oraculi.io)**
+**Feel free to apply! Drop us a line with your LinkedIn/GitHub/Twitter and link of your code repository at [mohamed@tailwarden.com](mailto:mohamed@tailwarden.com)**
 
-At Oraculi, our frontend stack consists of React and Typescript, but you are free to use any modern framework you wish, or do it VanillaJS style. 
+At Tailwarden, our frontend stack consists of React and Next.js, but you are free to use any modern framework you wish, or do it VanillaJS style. 
 
 > Threat this project as if you/we would continue working on this after your assignment: maintainability, scalability, and readability are super important.
 
@@ -29,7 +29,7 @@ Developers can do the following:
 To fetch the list of cloud accounts, you’ll need to make request to a publicly-available API to get JSON content:
 
 ```json
-GET https://hiring.oraculi.io/v1/accounts
+GET https://hiring.tailwarden.com/v1/accounts
 ```
 
 The JSON response contains an array of cloud accounts, each account has the following JSON attributes:
@@ -46,7 +46,7 @@ The JSON response contains an array of cloud accounts, each account has the foll
 To get a cloud account stats, issue the following request:
 
 ```json
-GET https://hiring.oraculi.io/v1/accounts/{id}
+GET https://hiring.tailwarden.com/v1/accounts/{id}
 ```
 
 The JSON response contains the following attributes:
@@ -63,7 +63,7 @@ The JSON response contains the following attributes:
 To get a cloud account costs grouped by service for the last 6 months, use the following endpoint:
 
 ```json
-GET https://hiring.oraculi.io/v1/accounts/{id}/history
+GET https://hiring.tailwarden.com/v1/accounts/{id}/history
 ```
 
 The JSON response contains an array of datapoints. Each datapoint contains the following attributes:
@@ -96,7 +96,7 @@ After you've finished, you can share the repository URL with us.
 
 ### Review
 
-After you delivered the completed assignment to us, we will review it as soon as we can, generally within 24 hours. **We pay special attention to:**
+After you delivered the completed assignment to us, we will review it as soon as we can, generally within 48 hours. **We pay special attention to:**
 
 - [ ] Coding skills (testable code, usage of HTML & CSS properly)
 - [ ] Adopting a component-based structure with a clean modern look.
