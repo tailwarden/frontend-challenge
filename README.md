@@ -1,3 +1,5 @@
+<img src="banner.jpeg"/>
+
 ## Frontend Engineer - Coding challenge
 
 This test is a part of our hiring process at Tailwarden for the Frontend Engineer position. It should take you between 1 and 3 hours depending on your experience.
