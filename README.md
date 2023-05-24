@@ -2,35 +2,35 @@
 
 ## Frontend Engineer - Coding challenge
 
-This test is a part of our hiring process at Tailwarden for the Frontend Engineer position. It should take you between 1 and 3 hours depending on your experience.
+This test is a part of our hiring process at Tailwarden for the Frontend Engineer position. It should take you up to 3 hours depending on your experience.
 
-**Feel free to apply! Drop us a line with your LinkedIn/GitHub/Twitter and link of your code repository at [mohamed@tailwarden.com](mailto:mohamed@tailwarden.com)**
+At Tailwarden, our frontend stack consists of the following:
+- React with Next.js (currently on version 12, to be upgraded to version 13 with the app directory)
+- Typescript
+- TailwindCSS
+- Storybook
+- Jest & React Testing Library
 
-At Tailwarden, our frontend stack consists of React and Next.js, but you are free to use any modern framework you wish, or do it VanillaJS style. 
-
-> Threat this project as if you/we would continue working on this after your assignment: maintainability, scalability, and readability are super important.
+> Feel free to use any modern framework of your choice, as long as you are using Typescript to write type safe code and documenting your components on Storybook.
 
 ## Goal
 
-For this assignment, you are supposed to build a dashboard for developers to monitor their cloud costs and usage.
+For this assignment, you are supposed to build a simple dashboard for developers to monitor their cloud costs and usage. 
 
-To give you an idea, here how the app should look like:
+To give you an idea, here's how the app should look like:
 
 ![Mokckup](mockup.png)
 
-Developers can do the following:
+In a nutshell: users can toggle the accounts to display their data inside the widgets.
+Unless you want to, there's no need to spend too much time in the visuals or the responsiveness of this page. We have a great design system to back you up in the future! ;)
 
-- Add a cloud account (AWS, GCP, Azure ...)
-- Track cloud account stats (costs & usage)
-- Filter data by cloud account.
-
->  Bonus: Surprise us! Add a feature that you think would work well here ! Also, feel free to add your own look & feel.
+> In case you need recommendation of a chart lib to assist you on the journey, we can recommend [Nivo](https://nivo.rocks/) as it provides a great developer experience with React.
 
 ### API documentation
 
-To fetch the list of cloud accounts, you’ll need to make request to a publicly-available API to get JSON content:
+To fetch the list of cloud accounts, you’ll need to make a request to a publicly-available API to get JSON content:
 
-```json
+```
 GET https://hiring.tailwarden.com/v1/accounts
 ```
 
@@ -47,7 +47,7 @@ The JSON response contains an array of cloud accounts, each account has the foll
 
 To get a cloud account stats, issue the following request:
 
-```json
+```
 GET https://hiring.tailwarden.com/v1/accounts/{id}
 ```
 
@@ -64,7 +64,7 @@ The JSON response contains the following attributes:
 
 To get a cloud account costs grouped by service for the last 6 months, use the following endpoint:
 
-```json
+```
 GET https://hiring.tailwarden.com/v1/accounts/{id}/history
 ```
 
@@ -92,17 +92,17 @@ The JSON response contains an array of datapoints. Each datapoint contains the f
 
 ### Submission
 
-Create a new repo into your favorite git platform (GitHub, Gitlab, etc) with a README file containing list of instructions to run the project.
+Create a new repo into your favorite git platform (GitHub, Gitlab, etc) with a README file containing a list of instructions to run the project. Bonus points if you deploy your solution.
 
-After you've finished, you can share the repository URL with us.
+Once you are finished, you can share the repository URL with us.
 
 ### Review
 
 After you delivered the completed assignment to us, we will review it as soon as we can, generally within 48 hours. **We pay special attention to:**
 
-- [ ] Coding skills (testable code, usage of HTML & CSS properly)
-- [ ] Adopting a component-based structure with a clean modern look.
-- [ ] Code organization (modularity, dependencies between modules, naming, etc)
-- [ ] Overall code quality (edge cases, usage of tools, performance, best practices)
+- [ ] Code organization & good code splitting
+- [ ] Declarative and explicit naming for files, functions, consts etc
+- [ ] Adopting a component-based structure with Storybook
+- [ ] Overall code quality
 
-### Good luck,
+### Good luck! 🚀
